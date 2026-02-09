@@ -1,4 +1,4 @@
-const int ledPin=13;
+const int ledPin=12;
 const int buttonPin=2;
 
 int buttonState =0;
@@ -16,10 +16,10 @@ void loop() {
   Serial.println(buttonState);
   if(buttonState == HIGH){
    digitalWrite(ledPin, HIGH);
-   
-  delay(500);
+   Serial.println("LED ON");
+    delay(500);
+
   } else {
-    
     digitalWrite(ledPin, LOW);
     delay(500);
   }

@@ -1,7 +1,5 @@
 #include <WiFi.h>
-
-#include <HTTPClient.h>
-
+#include <WebServer.h>
 #include <DHT.h>
 
 const char* ssid = "5층";         // 수정 필요

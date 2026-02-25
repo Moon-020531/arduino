@@ -41,7 +41,8 @@ void loop() {
   digitalWrite(AB, LOW);
   delay(250);
   }else{
-     digitalWrite(AA, HIGH);          //모터A를 정회전
+     digitalWrite(AA, HIGH);
+     analogWrite(AA,80);                    //모터A를 정회전
   digitalWrite(AB, LOW);
   delay(1000); 
   }

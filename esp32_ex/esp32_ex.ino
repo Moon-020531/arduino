@@ -47,7 +47,7 @@ void setup() {
 
 void loop() {
   server.handleClient();
-  // --- 이 부분이 추가되어야 웹 요청 없이도 실시간으로 센서를 읽습니다 ---
+ 
   gettemphumi(); 
 }
 
